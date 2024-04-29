@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel & Tour</title>
+    <!--css file-->
+    <link rel="stylesheet"  href="style.css">
+
+    <!--Font link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!--Header secction starts-->
+    <header>
+    <!--menu bar starts-->
+
+    <div id="menu-bar" class="fas fa-bars">
+
+    </div>
+
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <!--NAV-VAR-->
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">Book</a>
+        <a href="#packages">Package</a>
+        <a href="#services">Service</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <!--icons-->
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="serach-bar-container">
+        <input type="search" id="search-bar" placeholder="Search here....">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header>
+    <!--Header section ends-->
+
+    <!--login form-->
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Enter your email id">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">Sign up</a></p>
+        </form>
+    </div>
+
+    <!--HOME SECTION STARTS-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Adventure is Worthwhile</h3>
+            <p>Discover new places with us, adventure awaits</p>
+            <a href ="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="uploads/video1.mp4"></span>
+            <span class="vid-btn" data-src="uploads/video2.mp4"></span>
+            <span class="vid-btn" data-src="uploads/video3.mp4"></span>
+            <span class="vid-btn" data-src="uploads/video4.mp4"></span>
+            <span class="vid-btn" data-src="uploads/video5.mp4"></span>
+            <span class="vid-btn" data-src="uploads/video6.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="uploads/video1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+    
+    <!--HOME SECTION ENDS-->
+
+    <!--Book Section starts-->
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="uploads/image1.png" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>Where to</h3>
+                    <input type="text" placeholder="Place here">
+                </div>
+
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+    </section>
+    <!--Book section ends-->
+
+    <!--Package section starts-->
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-cont">
+            <div class="box">
+                <img src="uploads/pic1.jpeg" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot">jaipur,  India</i></h3>
+                    <p>The Hawa Mahal is a palace in the city of Jaipur, Rajasthan, India. Built from red and pink sandstone, it is on the edge of the City Palace, Jaipur, and extends to the Zenana, or women's chambers.</p>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="uploads/pic3.jpeg" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot">India Gate,  India</i></h3>
+                    <p>The India Gate is located at the heart of India’s capital city, New Delhi.  About 2.3 km from the Rashtrapati Bhavan, it is located on the eastern extremity of the ceremonial boulevard, Rajpath. </p>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <div class="price">$80.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="uploads/pic2.jpeg" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot">Kerala,  India</i></h3>
+                    <p>Kerala, India, is a tropical paradise known for its lush green landscapes, backwaters, and beautiful beaches. Located on the southwestern coast of India, it offers a unique cultural experience with its ancient temples, traditional dance forms, and flavorful cuisine. </p>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <div class="price">$95.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="uploads/pic4.jpeg" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot">Mussoorie,  India</i></h3>
+                    <p>Mussoorie, also known as Queen of the Hills, is among the most popular hill stations of the country. A Britisher, Captain Frederick Young, accompanied by an official named FJ Shore, had climbed up the hill from the Doon valley in 1827 and found this ridge offering great views and a salubrious climate.  </p>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <div class="price">$91.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="uploads/pic5.jpeg" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot">Shimla,  India</i></h3>
+                    <p>Shimla is the capital and the largest city of the northern Indian state of Himachal Pradesh. In 1864, Shimla was declared as the summer capital of British India. After independence, the city became the capital of East Punjab and was later made the capital city of Himachal Pradesh.</p>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <div class="price">$70.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="uploads/pic6.jpeg" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot">Nainital,  India</i></h3>
+                    <p>Nainital, the charming Himalayan lake town, is a picture-postcard perfect hill-station and one of the most popular in Northern India. Commonly known as the ‘Lake District’, Nainital is nestled high up in the Kumaon Himalayas at an altitude of around 2,000 m above sea level.  </p>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <div class="price">$80.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+
+            <div class="box">
+                <img src="uploads/pic7.jpeg" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot">Mumbai,  India</i></h3>
+                    <p>Mumbai is the capital city of the Indian state of Maharashtra. Mumbai is the financial capital and the most populous city of India with an estimated population of 12.5 million (1.25 crore).</p>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <div class="price">$85.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="uploads/pic8.jpeg" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot">Varanasi,  India</i></h3>
+                    <p>Varanasi is a city on the Ganges river in northern India that has a central place in the traditions of pilgrimage, death, and mourning in the Hindu world. The city has a syncretic tradition of Islamic artisanship that underpins its religious tourism.  </p>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <div class="price">$95.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="uploads/pic9.jpeg" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot">Kashmir,  India</i></h3>
+                    <p>The valley of Kashmir is as rich with history and political controversy as it is with culture and natural phenomena. Sample exquisitely spiced native cuisines and festive teas, then walk off your meal along the rugged trekking routes to the north. </p>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <div class="price">$98.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+     <!--Package section ends-->
+
+     <!--Packages section starts-->
+     <section class="Services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fa-solid fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Hotels provide accommodation, along with services like food and beverages, and facilities like recreation, conference, and training arrangements, and organization of official or private parties.</p>
+            </div>
+
+
+            <div class="box">
+                <i class="fa-solid fa-utensils"></i>
+                <h3>food & drinks</h3>
+                <p>Food is not just fueling; it’s an experience because every meal is a chance to indulge your senses and nourish your soul.</p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p> Let everybody know and suckers be warned that this is the outcome when you mess with Bullhorn!</p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-earth-asia"></i>
+                <h3>around the world</h3>
+                <p>A world Map works best with the data set it is mashed-up with. A World Map is a representation of all continents and countries in the world.</p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Though we travel the world over to find the beautiful, we must carry it with us or we find it not. </p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-person-hiking"></i>
+                <h3>adventures</h3>
+                <p>Somewhere between the bottom of the climb and the summit is the answer to the mystery why we climb.</p>
+            </div>
+        </div>
+     </section>
+     <!--Packages section ends-->
+
+     <!--Gallery section starts-->
+     <div class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="uploads/img1.jpeg" alt="">
+                <div class="content">
+                    <h3>Amamzing Place</h3>
+                    <p>India is an amazing country</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="uploads/img2.jpeg" alt="">
+                <div class="content">
+                    <h3>Amamzing Place</h3>
+                    <p>India is an amazing country</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="uploads/img3.jpeg" alt="">
+                <div class="content">
+                    <h3>Amamzing Place</h3>
+                    <p>India is an amazing country</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="uploads/img4.jpeg" alt="">
+                <div class="content">
+                    <h3>Amamzing Place</h3>
+                    <p>India is an amazing country</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="uploads/img5.jpeg" alt="">
+                <div class="content">
+                    <h3>Amamzing Place</h3>
+                    <p>India is an amazing country</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="uploads/img6.jpeg" alt="">
+                <div class="content">
+                    <h3>Amamzing Place</h3>
+                    <p>India is an amazing country</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="uploads/img7.jpeg" alt="">
+                <div class="content">
+                    <h3>Amamzing Place</h3>
+                    <p>India is an amazing country</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="uploads/img8.jpeg" alt="">
+                <div class="content">
+                    <h3>Amamzing Place</h3>
+                    <p>India is an amazing country</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="uploads/img9.jpeg" alt="">
+                <div class="content">
+                    <h3>Amamzing Place</h3>
+                    <p>India is an amazing country</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="uploads/img10.jpeg" alt="">
+                <div class="content">
+                    <h3>Amamzing Place</h3>
+                    <p>India is an amazing country</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="uploads/img11.jpeg" alt="">
+                <div class="content">
+                    <h3>Amamzing Place</h3>
+                    <p>India is an amazing country</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="uploads/img12.jpeg" alt="">
+                <div class="content">
+                    <h3>Amamzing Place</h3>
+                    <p>India is an amazing country</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+      <!--Gallery section ends-->
+
+      <!--contact section starts-->
+      <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="uploads/contact.jpeg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+      </section>
+      <!--contact section ends-->
+
+      <!--footer section starts-->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>About us</h3>
+                <p>Lorem ipsum dolor sit amet consecteture adipisicing elit. Lorem ipsum dolor sit amet consecteture adipisicing elit. Lorem ipsum dolor sit amet consecteture adipisicing elit</p>
+            </div>
+
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">india</a>
+                <a href="#">usa</a>
+                <a href="#">japan</a>
+                <a href="#">spain</a>
+                <a href="#">france</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+        </div>
+
+        <h1 class="credit">created by <span>Anubhuti singh</span>| all rights reserved!</h1>
+    </section>
+
+      <!--footer section ends-->
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
